@@ -4,9 +4,9 @@ const translationSchema = new mongoose.Schema({
     language: {
         type: String,
         required: true,
-        enum: ['en', 'hi', 'be']
+        enum: ['en', 'hi', 'bn']
     },
-    questions: {
+    question: {
         type: String,
         required: true
     },

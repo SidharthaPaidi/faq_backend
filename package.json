@@ -16,6 +16,7 @@
     "@adminjs/express": "^6.1.1",
     "@adminjs/mongoose": "^4.1.0",
     "@google-cloud/translate": "^8.5.0",
+    "@google/generative-ai": "^0.21.0",
     "adminjs": "^7.8.15",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",

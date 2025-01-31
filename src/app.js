@@ -6,6 +6,7 @@ const cors = require('cors');
 const app = express();
 
 
+
 connectDB();
 
 //middlewares
@@ -17,6 +18,9 @@ app.get('/', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+
+const faqRoutes = require('./routes/faq');
+app.use('/api/faqs',faqRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
